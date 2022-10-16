@@ -4,7 +4,7 @@ Console.Write("Type a number M: ");
 int m = int.Parse(Console.ReadLine()!);
 Console.Write("Type a number N: ");
 int n = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"Sum: {AkkermanFun(m, n)}");
+Console.WriteLine($"Akkerman function from numbers {m} and {n} equal {AkkermanFun(m, n)}");
 
 int AkkermanFun(int m, int n)
 {
