@@ -2,7 +2,6 @@
 Console.Clear();
 Console.Write("Type a number N: ");
 int n = int.Parse(Console.ReadLine()!);
-int[] array = new int[n];
 FillNumbers(n);
 
 void FillNumbers(int n)

@@ -5,7 +5,6 @@ int m = int.Parse(Console.ReadLine()!);
 Console.Write("Type a number N: ");
 int n = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"Sum: {SumRecNumbers(m, n)}");
-SumRecNumbers(m, n);
 
 int SumRecNumbers(int m, int n)
 {
